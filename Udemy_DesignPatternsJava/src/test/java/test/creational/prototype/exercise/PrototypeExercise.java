@@ -1,0 +1,35 @@
+package test.creational.prototype.exercise;
+
+class Point {
+	public int x, y;
+
+	public Point(int x, int y) {
+		super();
+		this.x = x;
+		this.y = y;
+	}
+
+}
+
+class Line {
+	public Point start, end;
+	
+	public Line(Point start, Point end) {
+		super();
+		this.start = start;
+		this.end = end;
+	}
+
+
+
+	public Line deepCopy() {
+		
+		Point newStart = new Point(start.x, start.y);
+		Point newEnd = new Point(end.x, end.y);
+		return new Line(newStart, newEnd);
+	}
+}
+
+public class PrototypeExercise {
+
+}
