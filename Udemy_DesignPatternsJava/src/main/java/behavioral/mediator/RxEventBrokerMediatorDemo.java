@@ -11,9 +11,10 @@ import io.reactivex.Observer;
 
 /**
  * The Event broker acts as Mediator. It uses RxJava, Reactive Streams
- * Implementations for Java: ReactiveX is a combination of the best ideas from
- * the Observer pattern, the Iterator pattern, and functional programming.
- * ReactiveX is An API for asynchronous programming with observable streams
+ * Implementations for Java: ReactiveX is an event processing library and it is
+ * a combination of the best ideas from the Observer pattern, the Iterator
+ * pattern, and functional programming. ReactiveX is An API for asynchronous
+ * programming with observable streams
  * 
  * @author ciro
  *
