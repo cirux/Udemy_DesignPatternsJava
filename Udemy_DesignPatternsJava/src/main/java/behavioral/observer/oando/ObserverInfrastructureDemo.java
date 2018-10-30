@@ -34,6 +34,7 @@ class Observable<T> {
 	}
 }
 
+// you have to extends class / implement interface
 class Person extends Observable<Person> {
 	private int age;
 
