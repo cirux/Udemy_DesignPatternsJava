@@ -66,9 +66,11 @@ class Person {
 		if (this.age == age)
 			return;
 
+		// cache old value
 		boolean oldCanVote = getCanVote();
 
 		this.age = age;
+		// change notification
 		propertyChanged.fire(new PropertyChangedEventArgs(this, "age"));
 
 		if (oldCanVote != getCanVote()) {
