@@ -1,5 +1,8 @@
 package behavioral.state;
 
+/**
+ * State base class
+ */
 class State{
 	void on(LightSwitch ls) {
 		System.out.println("Light is already on");
@@ -10,6 +13,9 @@ class State{
 	}
 }
 
+/**
+ * ConcreteState
+ */
 class OnState extends State{
 	
 	public OnState() {
@@ -24,6 +30,9 @@ class OnState extends State{
 	
 }
 
+/**
+ * ConcreteState
+ */
 class OffState extends State{
 	
 	public OffState() {
@@ -38,6 +47,9 @@ class OffState extends State{
 	
 }
 
+/**
+ * Context
+ */
 class LightSwitch {
 	
 	private State state;
