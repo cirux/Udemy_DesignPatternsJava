@@ -55,5 +55,10 @@
   		<artifactId>spring-context</artifactId>
   		<version>5.0.8.RELEASE</version>
   	</dependency>
+  	<dependency>
+  		<groupId>org.openjfx</groupId>
+  		<artifactId>javafx-base</artifactId>
+  		<version>11.0.1</version>
+  	</dependency>
   </dependencies>
 </project>
